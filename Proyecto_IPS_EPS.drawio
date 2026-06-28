@@ -1937,6 +1937,14 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="WiIcS19m81sIbQiVVQYz-17" edge="1" parent="1" source="WiIcS19m81sIbQiVVQYz-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="WiIcS19m81sIbQiVVQYz-16" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WiIcS19m81sIbQiVVQYz-18" connectable="0" parent="WiIcS19m81sIbQiVVQYz-17" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="/agendar cita" vertex="1">
+          <mxGeometry relative="1" x="0.6" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="WiIcS19m81sIbQiVVQYz-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="API" vertex="1">
           <mxGeometry height="60" width="120" x="320" y="40" as="geometry" />
         </mxCell>
@@ -1966,14 +1974,31 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="WiIcS19m81sIbQiVVQYz-19" edge="1" parent="1" source="WiIcS19m81sIbQiVVQYz-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="WiIcS19m81sIbQiVVQYz-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="70" y="710" />
+              <mxPoint x="810" y="710" />
+              <mxPoint x="810" y="350" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WiIcS19m81sIbQiVVQYz-20" connectable="0" parent="WiIcS19m81sIbQiVVQYz-19" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="todos" vertex="1">
+          <mxGeometry relative="1" x="-0.5261" y="-2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="WiIcS19m81sIbQiVVQYz-4" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="usuario&lt;div&gt;contraseña&lt;/div&gt;" vertex="1">
           <mxGeometry height="80" width="80" x="60" y="150" as="geometry" />
         </mxCell>
         <mxCell id="WiIcS19m81sIbQiVVQYz-6" parent="1" style="whiteSpace=wrap;html=1;rounded=0;align=center;" value="&lt;div&gt;# Datos personales&lt;/div&gt;&lt;div&gt;full_name&lt;/div&gt;&lt;div&gt;document_number&lt;/div&gt;&lt;div&gt;email&lt;/div&gt;&lt;div&gt;phone&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;# Datos profesionales&lt;/div&gt;&lt;div&gt;university&lt;/div&gt;&lt;div&gt;professional_card_number&lt;/div&gt;&lt;div&gt;medical_registry&lt;/div&gt;&lt;div&gt;specialty&lt;/div&gt;&lt;div&gt;years_experience&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;# Archivos (opcionales)&lt;/div&gt;&lt;div&gt;document_id&lt;/div&gt;&lt;div&gt;diploma&lt;/div&gt;&lt;div&gt;professional_card&lt;/div&gt;&lt;div&gt;signature&lt;/div&gt;" vertex="1">
           <mxGeometry height="300" width="170" x="295" y="190" as="geometry" />
         </mxCell>
-        <mxCell id="WiIcS19m81sIbQiVVQYz-11" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="&lt;div&gt;# Datos personales&lt;/div&gt;&lt;div&gt;Tipo Documento&lt;/div&gt;&lt;div&gt;Número Documento&lt;/div&gt;&lt;div&gt;Primer Nombre&lt;/div&gt;&lt;div&gt;Segundo Nombre&lt;/div&gt;&lt;div&gt;Primer Apellido&lt;/div&gt;&lt;div&gt;Segundo Apellido&lt;/div&gt;&lt;div&gt;Fecha Nacimiento&lt;/div&gt;&lt;div&gt;Sexo Biológico&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;# Información adicional&lt;/div&gt;&lt;div&gt;Identidad Género&lt;/div&gt;&lt;div&gt;Orientación Sexual&lt;/div&gt;&lt;div&gt;Estado Civil&lt;/div&gt;&lt;div&gt;Ocupación&lt;/div&gt;&lt;div&gt;Nivel Educativo&lt;/div&gt;&lt;div&gt;Etnia&lt;/div&gt;&lt;div&gt;Grupo Poblacional&lt;/div&gt;&lt;div&gt;Dirección&lt;/div&gt;&lt;div&gt;Teléfono&lt;/div&gt;&lt;div&gt;Correo&lt;/div&gt;&lt;div&gt;EPS&lt;/div&gt;&lt;div&gt;Régimen&lt;/div&gt;&lt;div&gt;Fecha Registro&lt;/div&gt;&lt;div&gt;Estado&lt;/div&gt;" vertex="1">
-          <mxGeometry height="380" width="160" x="560" y="280" as="geometry" />
+        <mxCell id="WiIcS19m81sIbQiVVQYz-11" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="&lt;div&gt;# Datos personales&lt;/div&gt;&lt;div&gt;Tipo Documento&lt;/div&gt;&lt;div&gt;Número Documento&lt;/div&gt;&lt;div&gt;Primer Nombre&lt;/div&gt;&lt;div&gt;Segundo Nombre&lt;/div&gt;&lt;div&gt;Primer Apellido&lt;/div&gt;&lt;div&gt;Segundo Apellido&lt;/div&gt;&lt;div&gt;Fecha Nacimiento&lt;/div&gt;&lt;div&gt;Sexo Biológico&lt;/div&gt;&lt;div&gt;Tipo de sangre&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;# Información adicional&lt;/div&gt;&lt;div&gt;Identidad Género&lt;/div&gt;&lt;div&gt;Orientación Sexual&lt;/div&gt;&lt;div&gt;Estado Civil&lt;/div&gt;&lt;div&gt;Ocupación&lt;/div&gt;&lt;div&gt;Nivel Educativo&lt;/div&gt;&lt;div&gt;Etnia&lt;/div&gt;&lt;div&gt;Grupo Poblacional&lt;/div&gt;&lt;div&gt;Dirección&lt;/div&gt;&lt;div&gt;Teléfono&lt;/div&gt;&lt;div&gt;Correo&lt;/div&gt;&lt;div&gt;EPS&lt;/div&gt;&lt;div&gt;Régimen&lt;/div&gt;&lt;div&gt;Fecha Registro&lt;/div&gt;&lt;div&gt;Estado&lt;/div&gt;" vertex="1">
+          <mxGeometry height="390" width="160" x="560" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="WiIcS19m81sIbQiVVQYz-16" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="&lt;div&gt;# Crear cita&lt;/div&gt;&lt;div&gt;Cédula paciente&lt;/div&gt;&lt;div&gt;Talento requerido&lt;/div&gt;&lt;div&gt;Tipo consulta&lt;/div&gt;&lt;div&gt;Prioridad&lt;/div&gt;&lt;div&gt;fecha&lt;/div&gt;&lt;div&gt;Horario&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="120" x="880" y="290" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
