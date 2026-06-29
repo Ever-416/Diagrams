@@ -2004,12 +2004,12 @@
     </mxGraphModel>
   </diagram>
   <diagram id="isa2p8seamBKr8CJOYXE" name="tasks">
-    <mxGraphModel dx="1406" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2009" dy="1114" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="u50kP0e3c2v5gnzGt-tV-1" parent="1" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;autosizeText=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;fontSize=20;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" value="" vertex="1">
-          <mxGeometry height="150" width="150" x="80" y="80" as="geometry" />
+        <mxCell id="u50kP0e3c2v5gnzGt-tV-1" parent="1" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;autosizeText=1;darkOpacity=0.05;fillColor=#dae8fc;strokeColor=#6c8ebf;fillStyle=solid;fontSize=21;direction=west;gradientDirection=north;shadow=1;size=20;pointerEvents=1;align=center;" value="Crear scripts&amp;nbsp;&lt;br&gt;-Generación Inicial u On-Demand&lt;br&gt;Si un médico es nuevo o cambia drásticamente su doctor_schedule, el sistema puede disparar un evento en segundo plano para generar sus slots de los próximos 30 días por primera vez.&lt;br&gt;&lt;br&gt;-El Proceso Cron (Diario)&lt;br&gt;Configura una tarea programada (Cron Job) que se ejecute todas las noches a una hora de bajo tráfico (ej. 2:00 AM).Este proceso calcula y genera únicamente los slots del nuevo día que entra en la ventana de tiempo (el día número 31 o 61 en el futuro)." vertex="1">
+          <mxGeometry height="350" width="530" x="880" y="200" as="geometry" />
         </mxCell>
         <mxCell id="u50kP0e3c2v5gnzGt-tV-2" parent="1" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;autosizeText=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;fontSize=30;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" value="Agregar protección de rutas" vertex="1">
           <mxGeometry height="150" width="150" x="360" y="570" as="geometry" />
@@ -2028,6 +2028,9 @@
         </mxCell>
         <mxCell id="WZpgw6OvwOWPdRaSGAiu-2" parent="1" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;autosizeText=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;fontSize=16;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" value="Cargar Base de datos en&amp;nbsp;supabase" vertex="1">
           <mxGeometry height="150" width="150" x="360" y="930" as="geometry" />
+        </mxCell>
+        <mxCell id="WZpgw6OvwOWPdRaSGAiu-3" edge="1" parent="1" source="u50kP0e3c2v5gnzGt-tV-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=530;entryDy=185;entryPerimeter=0;" target="u50kP0e3c2v5gnzGt-tV-1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
